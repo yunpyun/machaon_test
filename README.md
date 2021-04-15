@@ -1,6 +1,6 @@
 # Выполнение тестового задания для Junior Web Developer
 
-Написана php-функцию `config($optionName, $defaultValue)` для получения неких настроек проекта.
+Написана php-функция `config($optionName, $defaultValue)` для получения неких настроек проекта.
 
 Настройки хранятся в php-файле `settings.php`.
 
@@ -16,4 +16,4 @@ echo config("app.services.resizer.fallback_format"); // jpeg
 echo config("db.host", "localhost"); // localhost
 ```
 
-Если опции нет, и значение по-умолчанию не задано, бросается исключение.
+Если опции нет, и значение по-умолчанию не задано, бросается исключение с текстом: "В настройках нет такой опции!".
