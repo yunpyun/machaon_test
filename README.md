@@ -1,8 +1,8 @@
 # Выполнение тестового задания для Junior Web Developer
 
-Написана php-функцию config($optionName, $defaultValue) для получения неких настроек проекта.
+Написана php-функцию `config($optionName, $defaultValue)` для получения неких настроек проекта.
 
-Настройки хранятся в php-файле settings.php.
+Настройки хранятся в php-файле `settings.php`.
 
 Вызовы функции:
 ```php
