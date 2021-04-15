@@ -2,7 +2,7 @@
 
 Написана php-функцию config($optionName, $defaultValue) для получения неких настроек проекта.
 
-Настройки пусть хранятся в php-файле settings.php.
+Настройки хранятся в php-файле settings.php.
 
 Вызовы функции:
 echo config("site_url"); // http://mysite.ru
